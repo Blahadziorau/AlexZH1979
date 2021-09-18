@@ -1,5 +1,7 @@
 package com.company;
 
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,6 +26,6 @@ public class Main {
         } else {
             System.out.println("Наименьшее число " + base[base.length - 2]);
         }
-
+        System.out.println(Math.pow(base[base.length - 2],2));
     }
 }
