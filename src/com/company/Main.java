@@ -25,5 +25,6 @@ public class Main {
             System.out.println("Наименьшее число " + base[base.length - 2]);
         }
         int xxxxxx = 0;
+        int yyyyy = 0;
     }
 }
